@@ -1,3 +1,4 @@
+# MISSION-2 #
 ### TASK 1 ### -> HTML FORMS ->
 
 > What is an Html form 
@@ -201,3 +202,38 @@ for eg -> input type be text , checkbox or radio
 
         <input type="image" src="https://static.vecteezy.com/system/resources/previews/016/177/935/non_2x/login-buttons-sign-label-speech-login-vector.jpg" alt="login" height="70px" width="100px">
     </form>
+
+
+# MISSION-3 #
+
+### TASK 1 ###→ SEMANTIC TAGS IN HTML
+
+> SEMANTIC TAGS  →
+
+1. header
+2. nav
+3. section
+4. article
+5. footer
+
+1. <header> tag
+- Represents the top section of a page or a section.
+- Usually contains the site title, logo, or introductory content.
+
+2. <nav> tag
+- Used to define a block of navigation links.
+- Typically contains links to other parts of the website like Home, About, Contact, etc.
+
+3. <section> tag
+Groups related content together into a thematic block.
+
+
+4. <article> tag
+- It is commonly used for blog posts, news articles, comments, or forum posts.
+
+5. <footer> tag
+- Defines the bottom part of a web page or a section.
+- It contains copyright info, links, contact details, or disclaimers.
+
+
+
