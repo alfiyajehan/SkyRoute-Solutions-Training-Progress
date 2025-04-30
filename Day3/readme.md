@@ -7,7 +7,7 @@
 ### 🚀 Mission 3: CSS Basics and Box Model
 
 #### Task 1: CSS Selectors
-- **Duration:** 2 hours
+- **Duration:** 1 hour
 - **Topics Covered:**
   - Introduction to CSS
   - Types of CSS Selectors:
@@ -28,7 +28,7 @@
   - Practiced using pseudo-classes and attribute selectors
 
 #### Task 2: Box Model and Box Sizing
-- **Duration:** 1.5 hours
+- **Duration:** 56 min
 - **Topics Covered:**
   - Understanding the Box Model:
     - Content
@@ -52,12 +52,12 @@
     - Predefined Color Names
     - RGBA Colors (rgb(r, g, b, a))
     - HSL and HSLA Colors
-  - **Fonts:**
+  - **Fonts:** -> 45 min
     - Font-family
     - Font-weight
     - Font-style
     - Font-size
-  - **Units in CSS:**
+  - **Units in CSS:** 45 min
     - Absolute Units (e.g., pixels)
     - Percentage Units
     - Relative Units:
@@ -80,7 +80,7 @@
   - **Emphasis vs Strong:**
     - `<em>`: Used to emphasize text with stress (typically italicized)
     - `<strong>`: Denotes important text with significance (typically bold)
-  - **External Fonts:**
+  - **External Fonts:** - 15 min
     - Using `@font-face` to import custom fonts
     - Using Google Fonts with `@import`
 - **Hands-on Practice:**
