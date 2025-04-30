@@ -1,0 +1,55 @@
+  /* Element Selector  */
+    h1 {
+      color: rgba(2, 50, 123, 0.8);
+      text-align: center;
+    }
+
+    /* 2. Class Selector */
+    .highlight {
+      background-color: pink;
+      padding: 5px;
+    }
+
+    /* 3. ID Selector */
+    #unique-para {
+      color: red;
+      font-weight: bold;
+    }
+
+    /* 4. Pseudo Selector */
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+    /* 5. Multiple Selector */
+    h2, p {
+      font-family: Arial, sans-serif;
+    }
+
+    /* 6. Universal Selector */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* 7a. Descendant Selector */
+    .outer-box p {
+      color: brown;
+    }
+
+    /* 7b. Child Selector */
+    .outer-box > h3 {
+      color: blue;
+    }
+
+    /* 8a. Presence Attribute Selector */
+    input[placeholder] {
+      border: 2px dashed orange;
+    }
+
+    /* 8b. Exact Match Attribute Selector */
+    input[type="email"] {
+      background-color: #eef;
+    }

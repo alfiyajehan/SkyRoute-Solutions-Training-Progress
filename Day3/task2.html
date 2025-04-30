@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model</title>
+  <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+
+  <h1>Box Model And Box Sizing</h1>
+
+  <div class="container">
+    <!--content-box -->
+    <div class="box1">
+      <p><strong>Box 1</strong></p>
+      <p>box-sizing: content-box</p>
+    </div>
+
+    <!-- border-box -->
+    <div class="box2">
+      <p><strong>Box 2</strong></p>
+      <p>box-sizing: border-box</p>
+    </div>
+  </div>
+
+  <div class="info">
+    <h2>Explanation:</h2>
+
+    <p><span class="label">Box 1 (content-box):</span> The width and height only apply to the content. Padding and border are added outside the width of the content making the actual box bigger.</p>
+
+    <p><span class="label">Box 2 (border-box):</span> The width and height include content, padding, and border.</p>
+
+    <p><span class="label">Padding:</span> Space inside the box between the content and the border.</p>
+    <p><span class="label">Margin:</span> Space outside the box between 2 elements.</p>
+    <p><span class="label">Border:</span> Creates a line around the padding and content.</p>
+  </div>
+
+</body>
+</html>
+
