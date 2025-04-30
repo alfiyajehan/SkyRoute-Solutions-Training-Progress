@@ -250,4 +250,100 @@ h1 {
   font-weight: bold;
 }
 
+## COLOR
+
+1.Hexadecimal colors
+#RRGGBB
+0-F
+
+2.RGB colors
+rgb(r,g,b)
+0-255
+
+3.Predefined color names
+
+4.RGBA
+rgb(r,g,b,a)
+5.HSL colors
+6.HSLA colors
+
+## BOX SIZING
+1.border-box
+2.content-box
+
+## FONT
+
+FONT-FAMILY->
+ font-family: "Arial", "Helvetica", sans-serif;
+
+FONT-WEIGHT->
+  font-weight: 700;
+
+FONT-STYLE->
+  font-style: italic;
+
+FONT-SIZE  
+ font-size: 24px;
+
+##EMPHASIS V/S STRONG
+
+The <em> tag is used to emphasize text with stress (typically italicized), while the <strong> tag denotes important text with significance (typically bold).
+
+
+## EXTERNAL FONTS
+
+1.Using @font-face
+
+Syntax->
+@font-face {
+  font-family: 'font_name';
+  src: url('fonts_folder/font_name.woff2') format('woff2'),
+       url('fonts/CustomFont.woff') format('woff');
+}
+
+2.Using Google Fonts
+
+Syntax->
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+## UNITS IN CSS->
+
+1.Absolute unit(fixed)
+pixel->1/96 of an inch
+
+high pixel density of device in the orignal pixel(1/96 of an inch) results in high image quality.
+
+2.Percentage unit
+% of parent element dimension.
+
+3.Relative units->
+
+RELATIVE UNITS TO FONT-SIZE->
+1.em-
+relative to parent element font-size.
+
+2.rem
+relative to root element's(html) font size.
+
+*Default fonts-size of the body ->16px
+* Default margin of the body ->8px
+
+RELATIVE UNIT TO VIEWPORT->
+
+1.vw(veiwport width)
+
+2.vh(veiwport height)
+
+## DIFFERENCE BETWEEN 1% AND 1VW
+
+1 viewport width(1vw) =(1/100 )* current width of browser window
+1 viewport height(1vh) =(1/100 )* current height of browser window
+
+1%: This unit is relative to the parent element's size. If applied to an element's width, it will be 1% of the width of its parent container. Similarly, for height, it would be 1% of the height of the parent element.
+
+1vw: This stands for "1% of the viewport width". The viewport refers to the visible area of the browser window, so 1vw will always be 1% of the current width of the browser window (or viewport), regardless of the parent element.
 
