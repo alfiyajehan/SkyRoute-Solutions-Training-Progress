@@ -1,0 +1,23 @@
+.box {
+    background-color: #74b9ff;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .box {
+      background-color: #fd79a8;
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .box {
+      background-color: #55efc4;
+      font-size: 16px;
+    }
+  }
+  

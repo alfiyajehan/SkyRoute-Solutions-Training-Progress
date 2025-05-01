@@ -1,0 +1,43 @@
+.flex-container {
+    display: flex;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  .flex-container div {
+    background-color: #74b9ff;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+  }
+  
+  .start {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .center {
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .end {
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .space-evenly {
+    justify-content: space-evenly;
+  }
+  
+  .space-between {
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .space-around {
+    justify-content: space-around;
+  }
+  

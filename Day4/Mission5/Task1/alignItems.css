@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .flex-container div {
+    background-color: #55efc4;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .center {
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .stretch {
+    align-items: stretch;
+    gap: 10px;
+  }
+  
+  .start {
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .end {
+    align-items: flex-end;
+    gap: 10px;
+  }
+  
