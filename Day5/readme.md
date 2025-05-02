@@ -56,6 +56,17 @@
   - Created animations using `@keyframes` and applied them to elements.
   - Practiced using `animation-name`, `animation-duration`, and `animation-iteration-count`.
 
+#### Task 4: CSS Revision
+- **Duration:** 1.5 hours
+- **Topics Covered:**
+  - Revised CSS concepts:
+    - Selectors
+    - Box Model
+    - Colors, Fonts, and Units
+    - Flexbox and Grid Layout
+- **Hands-on Practice:**
+  - Reviewed and practiced previously learned CSS concepts.
+
 ---
 
 ### 🎯 Key Achievements
@@ -63,6 +74,7 @@
 2. Practiced transforming elements with properties like `translate`, `scale`, `rotate`, and `skew`.
 3. Gained an understanding of CSS animations and their properties.
 4. Successfully created animations using `@keyframes` and applied them to elements.
+5. Revised and reinforced foundational CSS concepts.
 
 ---
 
