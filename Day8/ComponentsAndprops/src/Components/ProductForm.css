@@ -1,0 +1,8 @@
+@font-face{
+    font-family:'Gidole';
+    src:url('https://fonts.googleapis.com/css2?family=Gidole&display=swap');
+}
+
+body{
+    font-family:'Gidole';
+}
