@@ -5,7 +5,7 @@
 ## 📅 Day 9 - 8th May 2025
 
 ### 🚀 Mission 13: Handling events and lists
-- **Duration:** 20 minutes
+- **Duration:** 30 minutes
 - **Topics Covered:**
   - **Keys in React:**
     - Special string attributes used to identify elements in a list.
@@ -51,7 +51,7 @@
   - Revised previous React concepts, including components, props, and state.
 
 #### Refactor Class Components to Functional Components
-- **Duration:** 15 minutes
+- **Duration:** 30 minutes
 - **Topics Covered:**
   - Converted class-based components to functional components using hooks like `useState`.
 
