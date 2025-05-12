@@ -5,7 +5,6 @@ import TaskList from './components/TaskList';
 const App = () => {
   const [tasks, setTasks] = useState([]);
 
-  // Load tasks from localStorage when the app initializes
   useEffect(() => {
     const storedTasks = localStorage.getItem('tasks');
     if (storedTasks) {
@@ -13,7 +12,6 @@ const App = () => {
     }
   }, []);
 
-  // Save tasks to localStorage whenever they are updated
   useEffect(() => {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }, [tasks]);
